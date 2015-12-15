@@ -1,12 +1,15 @@
 p {
 	font-family:'Slabo 27px', serif;
-	color:5A2971;
+	color:2D1B40;
+	font-weight:bold
+	
 }
 body {
-    background-color:linen;
+    background-color:597072;
 }
 
 h1 {
-    color:maroon;
-    margin-left:40px;
+    color:5A2971;
+    margin-left:100px;
+	text-align:center;
 }
