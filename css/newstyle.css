@@ -1,4 +1,12 @@
 p {
-	font-family: 'Slabo 27px', serif;
-	color: 5A2971
+	font-family:'Slabo 27px', serif;
+	color:5A2971;
+}
+body {
+    background-color:linen;
+}
+
+h1 {
+    color:maroon;
+    margin-left:40px;
 }
