@@ -1,15 +1,89 @@
 p {
-	font-family:'Slabo 27px', serif;
-	color:2D1B40;
-	font-weight:bold
-	
+	font-family:'Bitter', serif;
+	font-weight:narrow;	
+	color:13082E;
+	font-size:20px;
+	font-weight:bold;
 }
+
+tr{
+	font-family:'Bitter', serif;
+	font-weight:narrow;	
+	color:FFEAA1;	
+}
+
+
 body {
-    background-color:597072;
+    background-image: url("../images/back.jpg");
 }
 
 h1 {
-    color:5A2971;
-    margin-left:100px;
+	font-family: 'Noto Sans', sans-serif;
+    color:970000;
+    margin-left:10%;
+	border-style: dashed;
+	border-width: 4px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 15%;
+	padding-bottom: 15%;
+	background-image: url("../images/deep.jpg");
 	text-align:center;
+	text-shadow: 2px 2px #ff0000;
+}
+
+.centering {
+	display:block;
+	max-width: 50%;
+	margin-left: auto;
+    margin-right: auto;
+	padding-bottom:30px;
+}	
+	
+#mainContent {
+	margin-left: 150px;
+	padding-left: 25px;
+	margin-right: 75px;
+}
+
+@keyframes mymove {
+		from {background-color: red;}
+		to {background-color: blue;}
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 150px;
+	position: fixed;
+}
+
+nav ul li a {
+	font-family:'Bitter', serif;
+	display: block;
+	text-decoration: none;
+	color:610009;
+	font-weight:bold;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 10px;
+	background-image:url("../images/doom.jpg") ;
+}
+
+.positioning{
+	float: right;
+	padding: 15px;
+	max-width: 30%;
+}
+
+.oppositeposition{
+	float: left;
+	padding: 15px;
+	max-width: 30%;
+}
+
+nav ul li a:hover {
+	background-color: black;
+	color: white;
 }
