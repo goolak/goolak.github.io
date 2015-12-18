@@ -49,6 +49,8 @@ h1 {
 
 table tr td {
 	color:AD0062;
+	text-align:left;
+	font-size:2%;
 }
 
 @keyframes mymove {
