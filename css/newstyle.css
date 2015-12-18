@@ -105,5 +105,5 @@ nav ul li a:hover {
     -webkit-column-rule: none; /* Chrome, Safari, Opera */
     -moz-column-rule: none; /* Firefox */
     column-rule: none;
-	font-style:'Bitter', serif;
+	font-family:'Noto Sans', sans-serif;
 }
