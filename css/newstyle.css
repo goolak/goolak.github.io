@@ -20,13 +20,13 @@ body {
 h1 {
 	font-family: 'Noto Sans', sans-serif;
     color:970000;
-    margin-left:10%;
 	border-style: dashed;
 	border-width: 4px;
-	margin-left: 10%;
-	margin-right: 10%;
-	padding-top: 15%;
-	padding-bottom: 15%;
+	margin-top:20%;
+	margin-left:10%;
+	margin-right:10%;
+	padding-top:5%;
+	padding-bottom:5%;
 	background-image: url("../images/deep.jpg");
 	text-align:center;
 	text-shadow: 2px 2px #ff0000;
