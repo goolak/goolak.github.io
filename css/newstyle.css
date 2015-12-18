@@ -94,3 +94,15 @@ nav ul li a:hover {
 	background-color: black;
 	color: white;
 }
+
+.coloumning{
+	webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    -webkit-column-rule: none; /* Chrome, Safari, Opera */
+    -moz-column-rule: none; /* Firefox */
+    column-rule: none;
+}
