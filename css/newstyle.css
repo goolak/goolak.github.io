@@ -132,12 +132,14 @@ nav ul li a:hover {
 		left: 0;
 		width: 100%;
 		background-color: #f1f1f1;
-		position: fixed;
+		position: static;
+		display: none;
 	}
-
+	
 	nav ul li {
 		float: left;
 		border-right: 1px solid black;
+		margin-bottom: 1px;
 	}
 	
 	nav ul li a {
@@ -149,6 +151,7 @@ nav ul li a:hover {
 		padding-left: 16px;
 		padding-right: 16px;
 		font-size: 0.75em;
+		width: 100%;
 	}
 	
 	#mainContent {
