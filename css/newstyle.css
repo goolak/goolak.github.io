@@ -122,8 +122,6 @@ nav ul li a:hover {
 	font-family:'Noto Sans', sans-serif;
 }
 @media screen and (max-width: 600px) {
-	
-	
 	nav ul {
 		list-style-type: none;
 		margin: 0;
@@ -160,6 +158,4 @@ nav ul li a:hover {
 		margin-right: 2%;
 		padding-top: 10px;
 	}
-	
-	
 }
